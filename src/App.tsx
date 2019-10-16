@@ -1,5 +1,5 @@
 import React from 'react';
-import SimpleAsset from './components/SimpleAsset'
+import SimpleAsset from './components/SimpleAsset';
 import mongoose from 'mongoose';
 
 import { IAction, ActionType } from './framework/IAction';

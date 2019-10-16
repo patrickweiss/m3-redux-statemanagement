@@ -26,7 +26,7 @@ export class CS {
     public getStore(){
         return this.store;
     }
-    public getState() {
+    private getState() {
         return this.store.getState();
     }
     public getUIState() {
