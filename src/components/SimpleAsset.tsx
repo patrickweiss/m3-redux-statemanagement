@@ -18,8 +18,6 @@ interface IProps {
 interface IState {
     edit_mode: boolean;
 }
-
-
 export default class SimpleAsset extends React.PureComponent<IProps, IState> {
 
     constructor(props: IProps) {
